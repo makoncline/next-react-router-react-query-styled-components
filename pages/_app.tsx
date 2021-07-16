@@ -1,6 +1,8 @@
 import React, { ReactNode } from "react";
 import { AppProps } from "next/app";
-import { GlobalStyle } from "../styles";
+import "normalize.css";
+import "../components/baseline.css";
+import { GlobalStyle } from "../components";
 
 function SafeHydrate({ children }: { children: ReactNode }) {
   return (
